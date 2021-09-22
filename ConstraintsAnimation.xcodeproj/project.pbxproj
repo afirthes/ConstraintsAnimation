@@ -10,9 +10,9 @@
 		082085F826FB538800CF600F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082085F726FB538800CF600F /* AppDelegate.swift */; };
 		082085FA26FB538800CF600F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082085F926FB538800CF600F /* SceneDelegate.swift */; };
 		082085FC26FB538800CF600F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082085FB26FB538800CF600F /* ViewController.swift */; };
-		082085FF26FB538800CF600F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082085FD26FB538800CF600F /* Main.storyboard */; };
 		0820860126FB538A00CF600F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0820860026FB538A00CF600F /* Assets.xcassets */; };
 		0820860426FB538A00CF600F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0820860226FB538A00CF600F /* LaunchScreen.storyboard */; };
+		0820860E26FB545F00CF600F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0820860D26FB545F00CF600F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		082085F726FB538800CF600F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		082085F926FB538800CF600F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		082085FB26FB538800CF600F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		082085FE26FB538800CF600F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0820860026FB538A00CF600F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0820860326FB538A00CF600F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0820860526FB538A00CF600F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0820860D26FB545F00CF600F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				082085F726FB538800CF600F /* AppDelegate.swift */,
 				082085F926FB538800CF600F /* SceneDelegate.swift */,
 				082085FB26FB538800CF600F /* ViewController.swift */,
-				082085FD26FB538800CF600F /* Main.storyboard */,
+				0820860D26FB545F00CF600F /* Main.storyboard */,
 				0820860026FB538A00CF600F /* Assets.xcassets */,
 				0820860226FB538A00CF600F /* LaunchScreen.storyboard */,
 				0820860526FB538A00CF600F /* Info.plist */,
@@ -124,9 +124,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0820860E26FB545F00CF600F /* Main.storyboard in Resources */,
 				0820860426FB538A00CF600F /* LaunchScreen.storyboard in Resources */,
 				0820860126FB538A00CF600F /* Assets.xcassets in Resources */,
-				082085FF26FB538800CF600F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,14 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		082085FD26FB538800CF600F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				082085FE26FB538800CF600F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0820860226FB538A00CF600F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7D74M9YZKJ;
 				INFOPLIST_FILE = ConstraintsAnimation/Info.plist;
@@ -293,8 +286,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.windwail.ConstraintsAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.windwail.AnimationPractice2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7D74M9YZKJ;
 				INFOPLIST_FILE = ConstraintsAnimation/Info.plist;
@@ -312,8 +307,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.windwail.ConstraintsAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.windwail.AnimationPractice2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
